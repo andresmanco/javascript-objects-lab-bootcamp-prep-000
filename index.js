@@ -20,4 +20,4 @@ function destructivelyDeleteFromObjectByKey(object, key){
   return object;
 }
 var n=0;
-console.log(n++);
+console.log("perro marico");
