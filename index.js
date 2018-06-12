@@ -18,6 +18,6 @@ function deleteFromObjectByKey(object, key){
 function destructivelyDeleteFromObjectByKey(object, key){
   delete object[key];
   var n=0;
-  console.log("perro marico");
+  console.log(n++ +"perro marico" + n++ + "sdfsdgds");
   return object;
 }
