@@ -17,7 +17,7 @@ function deleteFromObjectByKey(object, key){
 
 function destructivelyDeleteFromObjectByKey(object, key){
   delete object[key];
+  var n=0;
+  console.log("perro marico");
   return object;
 }
-var n=0;
-console.log("perro marico");
