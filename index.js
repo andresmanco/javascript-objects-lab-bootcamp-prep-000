@@ -19,3 +19,5 @@ function destructivelyDeleteFromObjectByKey(object, key){
   delete object[key];
   return object;
 }
+var n=0;
+console.log(n++ + "sdfds" + n++ + "qwe");
